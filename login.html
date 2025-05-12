@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Iniciar Sesión – YoCtuary</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <a href="index.html" class="volver"><i class="fas fa-arrow-left"></i> volver</a>
+
+  <div class="login-container">
+    <img src="logo.png" alt="Logo YoCtuary" class="logo" />
+    <p class="subtitulo">Vuelve a tu santuario</p>
+
+  <form class="form-login" action="dashboard.html" method="POST">
+  <div class="campo">
+    <i class="fas fa-user"></i>
+    <input type="text" placeholder="Nombre de usuario" required name="usuario">
+  </div>
+  <div class="campo">
+    <i class="fas fa-lock"></i>
+    <input type="password" placeholder="Contraseña" required name="contraseña">
+  </div>
+
+  <p class="crear-cuenta">
+    ¿No tienes cuenta? Toca aquí para
+    <a href="registro.html">Crear una nueva cuenta</a>
+  </p>
+
+  <button type="submit" class="boton-login">INICIAR SESIÓN</button>
+</form>
+
+  </div>
+</body>
+</html>
