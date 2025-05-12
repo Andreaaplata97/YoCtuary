@@ -1,7 +1,3 @@
-function redirigirADashboard(event) {
-  event.preventDefault();
-  window.location.href = "dashboard.html";
-}
 document.querySelector(".preferences").addEventListener("submit", function(event) {
   event.preventDefault(); 
 
