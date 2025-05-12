@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contacto – YoCtuary</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+ <header class="main-header">
+  <div class="navbar">
+    <div class="nav-logo">
+      <a href="index.html"><img src="logo.png" alt="Logo YoCtuary" /></a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="sobre-nosotros.html" >Sobre Nosotros</a></li>
+      <li><a href="contacto.html " class="active">Contacto</a></li>
+    </ul>
+    <div class="nav-buttons">
+      <a href="login.html" class="login">Iniciar sesión</a>
+      <a href="registro.html" class="register">Registrarse</a>
+    </div>
+  </div>
+</header>
+
+
+  <main class="contacto-container">
+    <section class="contacto-info">
+      <h1>Hablemos!!</h1>
+      <p>Preguntas, comentarios, o sugerencias?<br>
+      Rellena nuestro formulario y contactaremos contigo pronto.</p>
+      <p>+34 678 910 990<br>
+      Contacta@yoctuary.com</p>
+    </section>
+
+    <section class="formulario-contacto">
+      <form>
+        <div class="nombre-apellido">
+          <input type="text" placeholder="Nombre*" required>
+          <input type="text" placeholder="Apellido*" required>
+        </div>
+        <input type="email" placeholder="Correo electrónico*" required>
+        <input type="tel" placeholder="Número de teléfono*" required>
+        <textarea placeholder="Mensaje..." rows="5"></textarea>
+        <button type="submit" class="enviar">ENVIAR</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
