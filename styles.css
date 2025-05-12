@@ -936,3 +936,105 @@ td {
   }
 }
 
+/* Media query para index.html */
+@media (max-width: 768px) {
+  /* Ajusta las secciones en index.html */
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  .hero-text {
+    max-width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 40px;  /* Ajuste del tamaño de fuente en móviles */
+  }
+
+  .btns {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .nav-buttons {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+}
+/* Media query para Dashboard */
+@media (max-width: 768px) {
+  /* Asegurarse de que las tablas sean desplazables */
+  .dashboard-table {
+    width: 100%;
+    overflow-x: auto;
+    display: block;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  /* Ajuste del tamaño de texto y botones en el dashboard */
+  .dashboard-header h2 {
+    font-size: 24px;
+  }
+
+  .card-title {
+    font-size: 18px;
+  }
+
+  .btn-dashboard {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+  }
+
+  .sidebar {
+    display: none;  /* Si el panel lateral es visible en escritorios, lo ocultamos en móviles */
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
+}
+/* Media query para Historial de Prácticas */
+@media (max-width: 768px) {
+  /* Hacer que las tablas sean desplazables horizontalmente */
+  .practice-history-table {
+    display: block;
+    overflow-x: auto;
+    width: 100%;
+  }
+
+  .practice-history-table th,
+  .practice-history-table td {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  /* Para las tarjetas de historial, apilarlas en móvil */
+  .history-card {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  /* Ajuste de texto */
+  .history-card-title {
+    font-size: 18px;
+  }
+
+  .history-card p {
+    font-size: 14px;
+  }
+}
