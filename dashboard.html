@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yoctuary - Dashboard</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="dashboard-container">
+    <aside class="sidebar">
+      <div class="logo">
+        <img src="logosinfondo.png" alt="Logo Yoctuary">
+      </div>
+      <nav class="menu">
+        <a href="dashboard.html" class="menu-item active">🌼 Dashboard</a>
+        <a href="eventos.html" class="menu-item">📅 Eventos</a>
+        <a href="historial.html" class="menu-item">🤍 Historial de prácticas</a>
+      </nav>
+      <a href="index.html" class="logout">🔌 Desconectar</a>
+    </aside>
+
+    <main class="main-content">
+      <div class="user-profile">
+        <div class="user-avatar">AP</div>
+        <span class="user-name">Andrea Plata</span>
+      </div>
+
+      <section class="header">
+        <div class="welcome">
+          <h2>Hola, Andrea</h2>
+          <p>Respira, conecta, y encuentra la paz que ya habita en ti.</p>
+        </div>
+      </section>
+
+      <section class="stats">
+  <div class="stat-box">
+    <h3></h3>
+    <p>Días consecutivos<br>de práctica</p>
+  </div>
+  <div class="stat-box">
+    <h3></h3>
+    <p>Última práctica<br>completada</p>
+  </div>
+  <div class="stat-box">
+    <h3></h3>
+    <p>Tiempo total<br>dedicado hasta ahora</p>
+  </div>
+</section>
+
+
+      <form class="preferences">
+        <div class="form-group">
+          <p>¿Cómo te sientes hoy?</p>
+          <label><input type="radio" name="estado" value="Energizada"> Energizada</label>
+          <label><input type="radio" name="estado" value="Tranquila"> Tranquila</label>
+          <label><input type="radio" name="estado" value="Cansada"> Cansada</label>
+          <label><input type="radio" name="estado" value="Estresada"> Estresada</label>
+          <label><input type="radio" name="estado" value="Triste"> Triste</label>
+        </div>
+
+        <div class="form-group">
+          <p>¿Cuánto tiempo tienes disponible?</p>
+          <label><input type="radio" name="tiempo" value="10 min"> 10 minutos</label>
+          <label><input type="radio" name="tiempo" value="15 min"> 15 minutos</label>
+          <label><input type="radio" name="tiempo" value="20 min"> 20 minutos</label>
+          <label><input type="radio" name="tiempo" value="30 min"> 30 minutos</label>
+          <label><input type="radio" name="tiempo" value="45 min"> 45 minutos</label>
+        </div>
+
+        <div class="form-group">
+          <p>¿Cuál es tu nivel de experiencia en yoga?</p>
+          <label><input type="radio" name="nivel" value="Principiante"> Principiante</label>
+          <label><input type="radio" name="nivel" value="Intermedio"> Intermedio</label>
+          <label><input type="radio" name="nivel" value="Avanzado"> Avanzado</label>
+        </div>
+
+        <div class="form-group">
+          <p>¿Qué tipo de yoga prefieres?</p>
+          <label><input type="radio" name="tipo" value="Relajante (Yin Yoga)"> Relajante (Yin Yoga)</label>
+          <label><input type="radio" name="tipo" value="Dinámico (Vinyasa)"> Dinámico (Vinyasa)</label>
+          <label><input type="radio" name="tipo" value="Suave (Hatha Yoga)"> Suave (Hatha Yoga)</label>
+          <label><input type="radio" name="tipo" value="Restaurativo"> Restaurativo</label>
+        </div>
+
+        <button type="submit">Iniciar práctica personalizada</button>
+      </form>
+
+    </main>
+  </div>
+</body>
+</html>
