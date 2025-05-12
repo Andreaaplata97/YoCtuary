@@ -76,7 +76,7 @@ function generarRutina() {
     const nombrePostura = nombresPosturas[posturaId] || `Postura ${posturaId}`;
     const ejercicioHTML = `
       <div class="ejercicio-fila">
-        <img src="assets/postura${posturaId}.jpg" alt="${nombrePostura}">
+        <img src="postura${posturaId}.jpg" alt="${nombrePostura}">
         <div class="info-ejercicio">
           <p class="titulo-ejercicio">Ejercicio ${index + 1}</p>
           <p class="nombre-postura">${nombrePostura}</p>
