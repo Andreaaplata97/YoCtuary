@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Rutina Personalizada | Yoctuary</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="rutina.js" defer></script>
+</head>
+<body>
+  <div class="dashboard-container">
+    <aside class="sidebar">
+      <div class="logo">
+        <img src="logosinfondo.png" alt="Logo Yoctuary">
+      </div>
+      <nav class="menu">
+        <a href="dashboard.html" class="menu-item">🌼 Dashboard</a>
+        <a href="eventos.html" class="menu-item">📅 Eventos</a>
+        <a href="historial.html" class="menu-item">🤍 Historial de prácticas</a>
+        <a href="rutina.html" class="menu-item active">🧘 Rutina Personalizada</a>
+      </nav>
+      <a href="index.html" class="logout">🔌 Desconectar</a>
+    </aside>
+    <main class="main-content">
+      <header>
+        <div class="user-profile">
+          <div class="avatar">AP</div>
+          <span class="user-name">Andrea Plata</span>
+        </div>
+        <h2 class="title">Tu rutina personalizada</h2>
+        <p class="session-info"></p>
+        <p class="session-description"></p> 
+      </header>
+      <section class="rutina-section">
+        <h3>Ejercicios:</h3>
+        <div id="rutina-detalles">
+        </div>
+      </section>
+
+      <button class="complete-button primary-button">✔ Práctica Completada</button>
+    </main>
+
+  </div>
+</body>
+</html>
